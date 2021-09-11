@@ -99,7 +99,7 @@ module afu
   logic en;
   logic [63:0] q_out;
 
-  assign en = rx.c0.mmioWrValid | rx.c0.mmioRdValid;
+  assign en = (rx.c0.mmioWrValid & (mmio_hdr.address == 16'h0020)) | rx.c0.mmioRdValid;
 
   fifo FIFO
     (.clk(clk),
