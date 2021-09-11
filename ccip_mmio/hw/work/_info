@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/file/Study/Lab/Ibex
+vfifo
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1631338449
+!i10b 1
+!s100 3P=ZbWI6Hzg9177mNBWeh3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`CK@;FPA:YaAHh6I`0;Ne1
+S1
+Z3 dE:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw
+w1631338345
+8E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo.sv
+FE:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo.sv
+!i122 0
+L0 6 30
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z6 !s108 1631338449.000000
+!s107 E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vfifo_tb
+R0
+R1
+!i10b 1
+!s100 J`J:jF?4e0c>Y]JOTf_U00
+R2
+IZDlX[?PgnLzn85l9`]Sl_0
+S1
+R3
+w1631338360
+8E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo_tb.sv
+FE:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo_tb.sv
+!i122 1
+L0 3 95
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo_tb.sv|
+!i113 1
+R7
+R8
