@@ -58,10 +58,14 @@ int main(int argc, char *argv[]) {
       afu.write(USER_REG_ADDR, i);
       uint64_t result = afu.read(USER_REG_ADDR);
 
-
-      if(i >= 0) {
-        if (result != i) {
-	      cerr << "ERROR: Read from MMIO register has incorrect value " << result << " instead of " << i - 7 << endl;
+      
+      if(i < 8) {
+        if (result != 0) {
+	      cerr << "ERROR: Not reset properly. Read from MMIO register has incorrect value " << result << " instead of " << 0 << endl;
+	      errors ++;
+        }
+      } else if (result != i - 8) {
+	      cerr << "ERROR: Read from MMIO register has incorrect value " << result << " instead of " << i - 8 << endl;
 	      errors ++;
         }
       }
