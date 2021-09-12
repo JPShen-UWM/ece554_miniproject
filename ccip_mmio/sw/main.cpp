@@ -67,7 +67,6 @@ int main(int argc, char *argv[]) {
       } else if (result != i - 8) {
 	      cerr << "ERROR: Read from MMIO register has incorrect value " << result << " instead of " << i - 8 << endl;
 	      errors ++;
-        }
       }
     }
 
