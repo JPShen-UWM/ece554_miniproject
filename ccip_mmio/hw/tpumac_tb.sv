@@ -40,21 +40,21 @@ module tpumac_tb();
 				$stop;
 			end
 			WrEn = 0;
-			for(integer i = 0; i < 100; i++) begin
+			for(integer j = 0; j < 100; j++) begin
 				Ain = $random;
 				Bin = $random;
 				answer = Cout + Ain * Bin;
 				@(negedge clk)
 				if(Cout != answer) begin
-					$display("Error at cycle %d, Cout is %d, expected %d!", i, Cout, answer);
+					$display("Error at round %d cycle %d, Cout is %d, expected %d!", i, j, Cout, answer);
 					$stop;
 				end
 				if(Aout != Ain) begin
-					$display("Error at cycle %d, Aout is %d, expected %d!", i, Aout, Ain);
+					$display("Error at round %d cycle %d, Aout is %d, expected %d!", i, j, Aout, Ain);
 					$stop;
 				end
 				if(Bout != Bin) begin
-					$display("Error at cycle %d, Bout is %d, expected %d!", i, Bout, Bin);
+					$display("Error at round %d cycle %d, Bout is %d, expected %d!", i, j, Bout, Bin);
 					$stop;
 				end
 			end
