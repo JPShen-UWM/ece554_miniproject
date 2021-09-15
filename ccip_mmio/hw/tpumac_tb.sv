@@ -43,7 +43,7 @@ module tpumac_tb();
 			for(integer j = 0; j < 100; j++) begin
 				Ain = $random;
 				Bin = $random;
-				answer = Cout + Ain * Bin;
+				answer = answer + Ain * Bin;
 				@(negedge clk)
 				if(Cout != answer) begin
 					$display("Error at round %d cycle %d, Cout is %d, expected %d!", i, j, Cout, answer);
