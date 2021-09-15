@@ -59,3 +59,53 @@ R6
 !i113 1
 R7
 R8
+vtpumac
+R0
+!s110 1631671344
+!i10b 1
+!s100 _8oQoVDfJj=7=]NbSWXP]3
+R2
+I0@8WEnBaN8zHYX0^7<fRL3
+S1
+R3
+w1631671243
+8E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/tpumac.sv
+FE:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/tpumac.sv
+!i122 2
+L0 3 32
+R4
+R5
+r1
+!s85 0
+31
+!s108 1631671344.000000
+!s107 E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/tpumac.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/tpumac.sv|
+!i113 1
+R7
+R8
+vtpumac_tb
+R0
+!s110 1631671698
+!i10b 1
+!s100 ]daW0XGiZ_Ve5_`IX6S5:2
+R2
+IM9M59Q?>M?eIRngD1A<bm0
+S1
+R3
+w1631671696
+8E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/tpumac_tb.sv
+FE:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/tpumac_tb.sv
+!i122 5
+L0 2 65
+R4
+R5
+r1
+!s85 0
+31
+!s108 1631671698.000000
+!s107 E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/tpumac_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/tpumac_tb.sv|
+!i113 1
+R7
+R8
