@@ -34,8 +34,9 @@ module tpumac_tb();
 			Cin = $random;
 			en = 1;
 			WrEn = 1;
+			answer = Cin;
 			@(negedge clk)
-			if(Cout != Cin) begin
+			if(Cout != answer) begin
 				$display("Error when input Cin!");
 				$stop;
 			end
