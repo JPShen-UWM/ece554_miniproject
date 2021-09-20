@@ -24,9 +24,9 @@ module tpumac
 	else if(en) begin
 		Aout <= Ain;
 		Bout <= Bin;
-		if(WrEn) Cout <= Cin;
-		else Cout <= mult_result + Cout;
+		Cout <= mult_result + Cout;
 	end
+  else if(WrEn) Cout <= Cin;
   end
   
   assign mult_result = Ain * Bin;
