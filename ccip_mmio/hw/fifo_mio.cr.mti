@@ -1,4 +1,11 @@
-E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo.sv {1 {vlog -work work -sv -stats=none E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo.sv
+E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/systolic_array.sv {1 {vlog -work work -sv -stats=none E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/systolic_array.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
+-- Compiling module systolic_array
+
+Top level modules:
+	systolic_array
+
+} {} {}} E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo.sv {1 {vlog -work work -sv -stats=none E:/file/Study/ECE554/ece554_miniproject/ccip_mmio/hw/fifo.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.3 Compiler 2020.07 Jul 22 2020
 -- Compiling module fifo
 
